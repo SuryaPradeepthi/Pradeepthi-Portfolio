@@ -386,9 +386,10 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1 334-849-0754",
+  number: "+1 3348490754",
   email_address: "chakkasuryapradeepthi@gmail.com"
 };
+
 // Twitter Section
 
 const twitterDetails = {

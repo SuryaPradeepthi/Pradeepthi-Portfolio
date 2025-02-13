@@ -43,12 +43,6 @@ export default function GithubProfileCard({prof}) {
             )}
             <div className="opp-div">
               <span className="desc-prof">
-                {/* Contact: +1 (334) 849-0754 <br></br>
-                Email: chakkasuryapradeepthi@gmail.com */}
-              </span>
-            </div>
-            <div className="opp-div">
-              <span className="desc-prof">
                 Open for opportunities: {prof.hireable}
               </span>
             </div>
