@@ -1,5 +1,5 @@
 {
-  "homepage": "https://SuryaPradeepthi.github.io/Suryapradeepthi-portfolio",
+  "homepage": "https://SuryaPradeepthi.github.io/suryapradeepthi-portfolio.git",
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +20,8 @@
     "sass": "^1.32.8"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
     "test": "react-scripts test",
